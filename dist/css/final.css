@@ -16,3 +16,15 @@
   body.play-music {
     animation: fadeIn 2s ease-in-out; /* Adjust the animation duration and timing function as needed */
   }
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* untuk membuat tautan berada di tengah vertikal */
+}
+
+/* Jika ingin tautan berada di tengah horizontal juga */
+.center a {
+    margin: 0 auto;
+}
